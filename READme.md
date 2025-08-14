@@ -1,10 +1,11 @@
-Workflow de Phasing de Long Reads y Análisis de Variantes
+### Workflow de Phasing de Long Reads y Análisis de Variantes
 
 Este repositorio/documentación describe los pasos para realizar variant calling, phasing y análisis de co-segregación a partir de long reads (ONT), utilizando Clair3 y WhatsHap, y generar tablas de variantes filtradas para análisis posterior en Python.
 
-Estructura de archivos generados
+# Estructura de archivos generados
 
 ´´´bash
+
 clair3_results/
     sample1/
         merge_output.vcf.gz       # VCF combinado de Clair3
@@ -22,6 +23,7 @@ phased_results/
 vcf_tables/
     sample1_region_table.txt    # tabla con variantes filtradas de interés
     sample2_region_table.txt
+    
 ´´´
 
 1. QC
